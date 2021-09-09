@@ -6,8 +6,6 @@
 
 body {
   font-size: 62.5%;
-  width: 100vw;
-  height: 100vh;
   font-family: "Montserrat", sans-serif;
   background-color: var(--smoky-black);
 }
@@ -42,11 +40,30 @@ ul {
   flex-direction: column;
 }
 
+.bodyIndex__headerIndex {
+  width: 100vw;
+}
 .bodyIndex__headerIndex .bodyIndex__headerIndex__banner {
   background-image: url(../img/carrusel3.jpg);
   background-size: cover;
-  width: 100vw;
+  width: 85%;
   height: 100vh;
+}
+.bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar {
+  width: 85%;
+  height: 10vh;
+  background-color: burlywood;
+}
+.bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar .bodyIndex__headerIndex__banner__navbar--logo {
+  width: 150px;
+}
+.bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar .bodyIndex__headerIndex__banner__navbar__list {
+  margin: 0;
+  padding: 0;
+}
+.bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar .bodyIndex__headerIndex__banner__navbar__list .bodyIndex__headerIndex__banner__navbar__list__item {
+  font-size: 1.3rem;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=index.css.map */
