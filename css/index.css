@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 2048px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--smoky-black);
+}
+
+#bodyForja {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 1024px;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--smoky-black);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: grid;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColum {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=index.css.map */
