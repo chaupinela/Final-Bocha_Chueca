@@ -1,8 +1,8 @@
 @import "_globales.scss";
-
+$fuenteNavBar400: "Amatic SC", cursive;
+$fuenteNavBar700: "Satisfy", cursive;
 
 .bodyIndex {
-  
   .bodyIndex__headerIndex {
     width: 100vw;
     height: 100vh;
@@ -11,56 +11,82 @@
       background-size: cover;
       width: 100%;
       height: 100vh;
-      .bodyIndex__headerIndex__banner__etiqueta{
+      .bodyIndex__headerIndex__banner__etiqueta {
         display: none;
-        
-    }
+      }
       .bodyIndex__headerIndex__banner__navbar {
-        
         align-items: center;
-        justify-content: space-around;  
+        justify-content: space-around;
         width: 100%;
         height: 12vh;
-        background-color: rgba(9, 195, 149, 0.883);
+        background-color: rgba(113, 205, 248, 0.274);
         position: fixed;
         
         .bodyIndex__headerIndex__banner__navbar--logo {
           width: 200px;
         }
         .bodyIndex__headerIndex__banner__navbar__list {
-          justify-content: space-around; 
-          background-color: yellowgreen;
+          justify-content: space-around;
+         
           width: 60vw;
-          
+
           .bodyIndex__headerIndex__banner__navbar__list__item {
-             display: block;
-             background-color: yellow; 
+            font-weight: bold;
+            font-family: "Amatic SC", cursive;
+            display: block;
             font-size: 1.4rem;
-            
-            padding:5px 15px;
-            
+            padding: 5px 15px;
             display: inline-block;
+           
+            
+            .bodyIndex__headerIndex__banner__navbar__list__item--juegos:hover{
+                border-top: blue 5px solid;
+                border-bottom: blue 8px solid;
+                font-size: 1.8rem;
+                color: rgb(244, 86, 250);
+                text-shadow: black 1px 1px 2px;
+            }
+            .bodyIndex__headerIndex__banner__navbar__list__item--amigu:hover{
+                border-top: yellow 3px solid;
+                border-bottom:yellow 8px solid;
+                font-size: 1.8rem;
+                color: orange;
+                text-shadow: black 1px 1px 2px;
+            }
+            .bodyIndex__headerIndex__banner__navbar__list__item--cont:hover{
+                border-top: red 3px solid;
+                border-bottom:red  8px solid;
+                font-size: 1.8rem;
+                color: rgba(9, 195, 149, 0.883);
+                text-shadow: black 1px 1px 2px;
+            }
+            .bodyIndex__headerIndex__banner__navbar__list__item--nos:hover{
+                border-top: rgb(62, 184, 62) 3px solid;
+                border-bottom:rgb(62, 184, 62) 8px solid;
+                font-size: 1.8rem;
+                color: rgb(7, 131, 248);
+                text-shadow: black 1px 1px 2px;
+            }
+             
+
           }
-          
         }
-    }
-    
-    .bodyIndex__headerIndex__banner__navbar__etiqueta{
-        
-        display:flex;
+      }
+
+      .bodyIndex__headerIndex__banner__navbar__etiqueta {
+        display: flex;
         justify-content: right;
         background-color: rgba(9, 195, 149, 0.883);
-        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn{
-            display: none;
-            width: 40px;
-            height: 40px;
+        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn {
+          display: none;
+          width: 40px;
+          height: 40px;
         }
-        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn:hover{
-            cursor: pointer;
+        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn:hover {
+          cursor: pointer;
+          
         }
+      }
     }
-    }
+  }
 }
-}
-
-
