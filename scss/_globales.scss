@@ -1,22 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
   }
   body {
     font-size: 62.5%;
-    
-    font-family: "Montserrat", sans-serif;
-    background-color: var(--smoky-black);
+    font-family: 'Satisfy', cursive;
+    background-color:azure;
   }
-  #bodyForja {
-    font-size: 62.5%;
-    width: 100vw;
-    height: 1024px;
-    font-family: "Montserrat", sans-serif;
-    background-color: var(--smoky-black);
-  }
-  
+ 
   a {
     text-decoration: none;
   }

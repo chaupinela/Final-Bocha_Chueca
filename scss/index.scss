@@ -1,35 +1,54 @@
 @import "_globales.scss";
 
 
-
-.bodyIndex__headerIndex{
+.bodyIndex {
+  
+  .bodyIndex__headerIndex {
     width: 100vw;
-    
-    
-        .bodyIndex__headerIndex__banner{
-            background-image: url(../img/carrusel3.jpg);
-            background-size: cover;
-            width: 85%;
-            height: 100vh;
-            .bodyIndex__headerIndex__banner__navbar{
-                
-
-                .bodyIndex__headerIndex__banner__navbar--logo{
-                width: 150px;
-                }
-                width: 85%;
-                height: 10vh;
-                background-color: burlywood;
-                .bodyIndex__headerIndex__banner__navbar__list{
-                    margin: 0;
-                    padding: 0;
-                    .bodyIndex__headerIndex__banner__navbar__list__item{
-                        font-size: 1.3rem;
-                        display: inline-block;
-                    }
-                }
-            }
+    height: 100vh;
+    .bodyIndex__headerIndex__banner {
+      background-image: url(../img/carrusel3.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      .bodyIndex__headerIndex__banner__navbar {
+        
+        align-items: center;
+        justify-content: space-between;  
+        width: 100%;
+        height: 10vh;
+        background-color: rgba(9, 195, 149, 0.883);
+        position: fixed;
+        .bodyIndex__headerIndex__banner__navbar--logo {
+          width: 200px;
         }
-
-
+        .bodyIndex__headerIndex__banner__navbar__list {
+          justify-content: space-around; 
+          
+          width: 60vw;
+          margin:0 15px;
+          padding:0 15px;
+          .bodyIndex__headerIndex__banner__navbar__list__item {
+            font-size: 1.6rem;
+            
+            display: inline-block;
+          }
+          
+        }
+    }
+    .bodyIndex__headerIndex__banner__navbar__etiqueta{
+        .bodyIndex__headerIndex__banner__navbar__etiqueta--inpu{
+            display: none;
+        }
+       
+      
+        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn{
+            
+            width: 30px;
+            height: 30px;
+        }
+    }
+    }
+  }
 }
+
