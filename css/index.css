@@ -48,14 +48,26 @@ ul {
   justify-content: space-around;
   background-color: #01adfd;
 }
+@media (max-width: 768px) {
+  .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn--logo {
   width: 300px;
+}
+@media (max-width: 768px) {
+  .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn--logo {
+    height: 40px;
+  }
 }
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn__input {
   display: none;
 }
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn__label .bodyIndex__headerIndex__cajaBtn__label--btn {
-  display: none;
   width: 40px;
   height: 40px;
   margin: 15px 25px;

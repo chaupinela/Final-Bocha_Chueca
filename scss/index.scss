@@ -2,6 +2,10 @@
 $fuenteNavBar400: "Amatic SC", cursive;
 $fuenteNavBar700: "Satisfy", cursive;
 
+
+
+
+
 .bodyIndex {
   margin: 15px auto;
   .bodyIndex__headerIndex {
@@ -10,6 +14,14 @@ $fuenteNavBar700: "Satisfy", cursive;
     width: 95vw;
     height: 100vh;
     .bodyIndex__headerIndex__cajaBtn{
+      @media (max-width: 768px){
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+      }
 
       display: none;
       height: 12vh;
@@ -18,6 +30,9 @@ $fuenteNavBar700: "Satisfy", cursive;
       
       .bodyIndex__headerIndex__cajaBtn--logo{
         width: 300px;
+        @media (max-width: 768px){
+          height: 40px;
+        }
       }
     .bodyIndex__headerIndex__cajaBtn__input {
       display: none;
@@ -27,7 +42,7 @@ $fuenteNavBar700: "Satisfy", cursive;
       
       
       .bodyIndex__headerIndex__cajaBtn__label--btn {
-        display: none;
+        // display: none;
         width: 40px;
         height: 40px;
         margin: 15px 25px;
@@ -38,6 +53,7 @@ $fuenteNavBar700: "Satisfy", cursive;
         
       }
     }
+   
   }
     .bodyIndex__headerIndex__banner {
       background-image: url(../img/carrusel3.jpg);
@@ -107,11 +123,6 @@ $fuenteNavBar700: "Satisfy", cursive;
 
     }
   }
+  
 }
-// @media (max-width:768px){
-//   .bodyIndex__headerIndex__banner__input{
-//     display: block;
-    
-//   }
-
-// }
+ 
