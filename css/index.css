@@ -33,9 +33,35 @@ ul {
   flex-direction: column;
 }
 
+.bodyIndex {
+  margin: 15px auto;
+}
 .bodyIndex .bodyIndex__headerIndex {
-  width: 100vw;
+  margin: 0 auto;
+  padding: 0;
+  width: 95vw;
   height: 100vh;
+}
+.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn {
+  display: none;
+  height: 12vh;
+  justify-content: space-around;
+  background-color: #01adfd;
+}
+.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn--logo {
+  width: 300px;
+}
+.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn__input {
+  display: none;
+}
+.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn__label .bodyIndex__headerIndex__cajaBtn__label--btn {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 15px 25px;
+}
+.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__cajaBtn .bodyIndex__headerIndex__cajaBtn__label .bodyIndex__headerIndex__cajaBtn__label--btn:hover {
+  cursor: pointer;
 }
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner {
   background-image: url(../img/carrusel3.jpg);
@@ -43,19 +69,16 @@ ul {
   width: 100%;
   height: 100vh;
 }
-.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__etiqueta {
-  display: none;
-}
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar {
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 95vw;
   height: 12vh;
-  background-color: rgba(113, 205, 248, 0.274);
+  background-color: #01adfd;
   position: fixed;
 }
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar .bodyIndex__headerIndex__banner__navbar--logo {
-  width: 200px;
+  width: 300px;
 }
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar .bodyIndex__headerIndex__banner__navbar__list {
   justify-content: space-around;
@@ -68,6 +91,7 @@ ul {
   font-size: 1.4rem;
   padding: 5px 15px;
   display: inline-block;
+  flex-grow: 1;
 }
 .bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar .bodyIndex__headerIndex__banner__navbar__list .bodyIndex__headerIndex__banner__navbar__list__item .bodyIndex__headerIndex__banner__navbar__list__item--juegos:hover {
   border-top: blue 5px solid;
@@ -96,19 +120,6 @@ ul {
   font-size: 1.8rem;
   color: #0783f8;
   text-shadow: black 1px 1px 2px;
-}
-.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar__etiqueta {
-  display: flex;
-  justify-content: right;
-  background-color: rgba(9, 195, 149, 0.883);
-}
-.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar__etiqueta .bodyIndex__headerIndex__banner__navbar__etiqueta--btn {
-  display: none;
-  width: 40px;
-  height: 40px;
-}
-.bodyIndex .bodyIndex__headerIndex .bodyIndex__headerIndex__banner .bodyIndex__headerIndex__banner__navbar__etiqueta .bodyIndex__headerIndex__banner__navbar__etiqueta--btn:hover {
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.css.map */

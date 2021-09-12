@@ -3,27 +3,57 @@ $fuenteNavBar400: "Amatic SC", cursive;
 $fuenteNavBar700: "Satisfy", cursive;
 
 .bodyIndex {
+  margin: 15px auto;
   .bodyIndex__headerIndex {
-    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    width: 95vw;
     height: 100vh;
+    .bodyIndex__headerIndex__cajaBtn{
+
+      display: none;
+      height: 12vh;
+      justify-content: space-around;
+      background-color: rgb(1, 173, 253);
+      
+      .bodyIndex__headerIndex__cajaBtn--logo{
+        width: 300px;
+      }
+    .bodyIndex__headerIndex__cajaBtn__input {
+      display: none;
+      
+    }
+    .bodyIndex__headerIndex__cajaBtn__label {
+      
+      
+      .bodyIndex__headerIndex__cajaBtn__label--btn {
+        display: none;
+        width: 40px;
+        height: 40px;
+        margin: 15px 25px;
+
+      }
+      .bodyIndex__headerIndex__cajaBtn__label--btn:hover {
+        cursor: pointer;
+        
+      }
+    }
+  }
     .bodyIndex__headerIndex__banner {
       background-image: url(../img/carrusel3.jpg);
       background-size: cover;
       width: 100%;
       height: 100vh;
-      .bodyIndex__headerIndex__banner__etiqueta {
-        display: none;
-      }
       .bodyIndex__headerIndex__banner__navbar {
         align-items: center;
         justify-content: space-around;
-        width: 100%;
+        width: 95vw;
         height: 12vh;
-        background-color: rgba(113, 205, 248, 0.274);
+        background-color: rgb(1, 173, 253);
         position: fixed;
         
         .bodyIndex__headerIndex__banner__navbar--logo {
-          width: 200px;
+          width: 300px;
         }
         .bodyIndex__headerIndex__banner__navbar__list {
           justify-content: space-around;
@@ -37,6 +67,7 @@ $fuenteNavBar700: "Satisfy", cursive;
             font-size: 1.4rem;
             padding: 5px 15px;
             display: inline-block;
+            flex-grow: 1;
            
             
             .bodyIndex__headerIndex__banner__navbar__list__item--juegos:hover{
@@ -73,20 +104,14 @@ $fuenteNavBar700: "Satisfy", cursive;
         }
       }
 
-      .bodyIndex__headerIndex__banner__navbar__etiqueta {
-        display: flex;
-        justify-content: right;
-        background-color: rgba(9, 195, 149, 0.883);
-        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn {
-          display: none;
-          width: 40px;
-          height: 40px;
-        }
-        .bodyIndex__headerIndex__banner__navbar__etiqueta--btn:hover {
-          cursor: pointer;
-          
-        }
-      }
+
     }
   }
 }
+// @media (max-width:768px){
+//   .bodyIndex__headerIndex__banner__input{
+//     display: block;
+    
+//   }
+
+// }
